@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import AuthButton from "@/components/auth-button";
 import CommentForm from "@/components/comment-form";
 import CommentList from "@/components/comment-list";

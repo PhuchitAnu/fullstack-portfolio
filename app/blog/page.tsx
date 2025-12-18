@@ -3,9 +3,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import prisma from "@/lib/db";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
+import type { BlogPost } from "@prisma/client";
 
 export default async function BlogPage() {
-    const posts = await prisma.blogPost.findMany({
+    const posts: BlogPost[] = await prisma.blogPost.findMany({
         orderBy: { createdAt: "desc" },
     });
     return (

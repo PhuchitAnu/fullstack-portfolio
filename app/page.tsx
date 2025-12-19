@@ -37,9 +37,10 @@ export default async function Home() {
       <section className="py-16 px-4 max-w-3xl mx-auto">
         <h2 className="text-2xl font-bold mb-4">About Me</h2>
         <p className="text-muted-foreground">
-          I specialize in React, Next.js, and TypeScript. With years of
-          experience building scalable applications, I love turning ideas into
-          reality.
+          I am a junior developer focused on learning and building web applications
+          with React, Next.js, and TypeScript. I enjoy self-learning through hands-on
+          projects and continuously improving my skills by turning ideas into working
+          applications.
         </p>
       </section>
 
